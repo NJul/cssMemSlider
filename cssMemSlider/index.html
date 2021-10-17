@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Mem Slider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="slider-container">
+        <input class="slide1" type="radio" name="slider" id="slide1" checked />
+        <input class="slide2" type="radio" name="slider" id="slide2" />
+        <input class="slide3" type="radio" name="slider" id="slide3" />
+        <input class="slide4" type="radio" name="slider" id="slide4" />
+
+        <div class="slides">
+          <div class="overflow">
+            <div class="inner">
+              <div class="slide slide_1">
+                <figure class="slide-content">
+                  <img src="./assets/img/memes1.jpg" alt="memes 1" />
+                  <figcaption>If someone gave you $200?</figcaption>
+                </figure>
+              </div>
+              <div class="slide slide_2">
+                <figure class="slide-content">
+                  <img src="./assets/img/memes2.jpg" alt="memes 2" />
+                  <figcaption>My new game</figcaption>
+                </figure>
+              </div>
+              <div class="slide slide_3">
+                <figure class="slide-content">
+                  <img src="./assets/img/memes3.jpg" alt="memes 3" />
+                  <figcaption>Xbox is better</figcaption>
+                </figure>
+              </div>
+              <div class="slide slide_4">
+                <figure class="slide-content">
+                  <img src="./assets/img/memes4.jpg" alt="memes 4" />
+                  <figcaption>Commit rope neck</figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="bullets" class="bullets">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
